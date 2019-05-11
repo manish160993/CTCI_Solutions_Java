@@ -9,7 +9,7 @@ class ques1{
             if(c[(int)c_in]){
                 return false;
             }
-            c[(int)c_in] = true;
+            c[(int)c_in] = false;
         }
         return true;
     }
